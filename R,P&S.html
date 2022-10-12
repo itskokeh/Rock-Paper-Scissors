@@ -21,9 +21,13 @@
         function playRound(playerSelection,computerSelection){
             if (select === getComputerChoice) {
                 console.log("Tie");
-            } else if ((select == "paper" && getComputerChoice == "rock") || (select == "rock" && getComputerChoice == "scissors") || (select == "scissors" && getComputerChoice == "paper")) {
+            } else if ((select == "paper" && getComputerChoice == "rock") || 
+            (select == "rock" && getComputerChoice == "scissors") || 
+            (select == "scissors" && getComputerChoice == "paper")) {
                 console.log("You Win");
-            } else if ((getComputerChoice == "paper" && select == "rock") || (getComputerChoice == "rock" && select == "scissors") || (getComputerChoice == "scissors" && select == "paper")) {
+            } else if ((getComputerChoice == "paper" && select == "rock") || 
+            (getComputerChoice == "rock" && select == "scissors") || 
+            (getComputerChoice == "scissors" && select == "paper")) {
                 console.log("Comp Wins");
             } else {
                 console.log("void");
