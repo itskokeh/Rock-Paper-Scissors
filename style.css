@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
     color: #fff;
+    margin: 0;
+    padding: 0%;
+    font-size: 18px;
 }
 body {
     margin: auto 0;
@@ -25,21 +28,48 @@ body {
     align-self: center;
     background-color: darkslategray;
     height: 75vh;
-    font-size: 2em;
     flex-wrap: wrap;
 }
-.one, .two, .three, .four {
+.two, .three, .four {
     display: flex;
     justify-content: space-around;
     align-items: center;
     align-self: center;
     width: 100%;
 }
+.one{
+    text-align: center;
+    margin-top: 15px;
+}
+.one h1{
+    font-size: 1.3em;
+}
+.one h2{
+    font-size: 1.3em;
+}
 .two{
     height: 35%;
 }
+.place3, .place4{
+    font-size: 80px;
+}
+.three{
+    height: 5%;
+}
+.score{
+    font-size: 1.2em;
+}
 .four{
     height: 40%;
+}
+.btn{
+    width: 27%;
+    height: 80%;
+    background-color: rgb(69, 99, 99);
+    border-radius: 10px;
+}
+.sign{
+    font-size: 100px;
 }
 footer{
     background-color: darkslategray;
@@ -52,3 +82,13 @@ footer{
     align-items: center;
     justify-content: center;
 }
+.fa-github {
+    color: var(--primary-light);
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+}
+  
+.fa-github:hover {
+    transform: rotate(360deg) scale(1.2);
+}
+  
